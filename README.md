@@ -29,3 +29,6 @@ Main method contains sample run examples
 Right now I am calculating the new model for every given text in the input at the beginning of the analysis, that might be inefficient, we this model could be created lazily when comparing 2 texts so that we could save memory.
 
 Building the new model might be the most expensive part, the rest is just query using fast access data structure like HashMap and HashSet which will have no overhead
+
+
+### Please note there are no unit tests, just a sample of executions of the functions, just in order to speed development time
